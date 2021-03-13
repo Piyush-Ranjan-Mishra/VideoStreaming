@@ -1,3 +1,9 @@
+# Screeenshots
+[Web-Screenshot](Piyush-Ranjan-Mishra.github.com/VideoStreaming/screenshots/web.png)
+[Mobile-Screenshot](Piyush-Ranjan-Mishra.github.com/VideoStreaming/screenshots/mobile.png)
+
+# Link: https://videostreaming-tv-apps.netlify.app/
+
 # Contents
 
 - [Prerequisites](#prerequisites)
