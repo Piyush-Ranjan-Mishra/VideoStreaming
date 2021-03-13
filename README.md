@@ -1,10 +1,11 @@
 # Screeenshots
-<div align=”center”> 
-  ![Web-Screenshot](/screenshots/web.png?raw=true "Web-Screenshot")
-  ![Mobile-Screenshot](/screenshots/mobile.png?raw=true "Mobile Responsive")
-  ![Web-Screenshot](/screenshots/screenshots.gif?raw=true "Web-Screenshot"
-  ![Performance](/screenshots/performance-report.png?raw=true "Performance Report")
-</div>
+<p align=”center”> \
+  <img width="460" height="300" src="/screenshots/screenshots.gif?raw=true">
+  <img width="460" height="300" src="/screenshots/performance-report.png?raw=true">
+  <img width="460" height="300" src="/screenshots/web.png?raw=true">
+  <img width="460" height="300" src="/screenshots/mobile.png?raw=true">
+</p>
+
 # Link
 
 https://videostreaming-tv-apps.netlify.app/
