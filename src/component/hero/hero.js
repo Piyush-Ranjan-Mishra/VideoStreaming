@@ -15,8 +15,8 @@ const HeroComponent = () => {
             Buccaneers <br></br>Vs Saints
           </div>
           <div className="hero-title-content">
-            <Button tabIndex={1}>Purchase $4.99</Button>
-            <Button tabIndex={2}>Subscribe </Button>
+            <Button tabIndex={0}>Purchase $4.99</Button>
+            <Button tabIndex={0}>Subscribe </Button>
           </div>
         </div>
       </div>

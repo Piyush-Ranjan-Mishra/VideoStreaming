@@ -27,7 +27,7 @@ const VideoLists = () => {
       {videoConfigs.map((videoConfig, index) => (
         <SingleVideoCard
           videoConfig={videoConfig}
-          tabIndex={index + 2}
+          tabIndex={0}
           key={`video${index}`}
         />
       ))}

@@ -3,7 +3,7 @@ import ProgressBar from "../ProgressBar";
 const SingleVideoCard = ({ videoConfig, tabIndex }) => {
   return (
     <>
-      <div testID="video" tabIndex={tabIndex} className="video-list-column">
+      <div testID="video" tabIndex={0} className="video-list-column">
         <div
           className="video-card"
           style={{
