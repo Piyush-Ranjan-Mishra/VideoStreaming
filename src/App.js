@@ -1,13 +1,38 @@
 import "./App.css";
-import { lazy, Suspense } from "react";
+import React, { lazy, Suspense } from "react";
 
 const HomePage = lazy(() => import("./page/homepage"));
 
 function App() {
+  return <GuardLazyComponentToSSR />;
+}
+
+export const GuardLazyComponentToSSR = () => {
+  const [isFront, setIsFront] = React.useState(false);
+
+  React.useEffect(() => {
+    process.nextTick(() => {
+      // eslint-disable-next-line no-undef
+      if (globalThis.window ?? false) {
+        setIsFront(true);
+      }
+    });
+  }, []);
+
+  if (!isFront) return null;
+
   return (
     <Suspense
       fallback={
-        <div style={{  height: "300px", color: 'white', textAlign: 'center', justifyContent: 'center' }}>
+        <div
+          style={{
+            display: "flex",
+            height: "300px",
+            color: "white",
+            textAlign: "center",
+            justifyContent: "center",
+          }}
+        >
           Loading..
         </div>
       }
@@ -15,6 +40,5 @@ function App() {
       <HomePage />;
     </Suspense>
   );
-}
-
+};
 export default App;
