@@ -1,7 +1,6 @@
 # Screeenshots
 
-![Web-Screenshot](/screenshots/web.png?raw=true "Web-Screenshot")
-![Mobile-Screenshot](/screenshots/mobile.png?raw=true "Mobile Responsive")
+![Web-Screenshot](/screenshots/screenshots.gif?raw=true "Web-Screenshot")
 ![Performance](/screenshots/performance-report.png?raw=true "Performance Report")
 
 # Link
