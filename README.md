@@ -39,7 +39,7 @@ With all the prereqs installed:
 3. Implemented fade-in for video cards
 4. Implement Responsive website
 5. For Performance :
-   - Pre-rendering static website
+   - Pre-rendered static website(SSR)
    - CSS from scratch to for lower bandwidth no bootstrap or material-ui
    - Implemented lazy loading and skeleton ui
    - Used webp image for faster rendering
