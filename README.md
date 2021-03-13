@@ -1,7 +1,7 @@
 # Screeenshots
 
-[Web-Screenshot](Piyush-Ranjan-Mishra.github.com/VideoStreaming/screenshots/web.png?raw=true "Web-Screenshot")
-[Mobile-Screenshot](Piyush-Ranjan-Mishra.github.com/VideoStreaming/screenshots/mobile.png?raw=true "Mobile Responsive")
+[Web-Screenshot](/screenshots/web.png?raw=true "Web-Screenshot")
+[Mobile-Screenshot](/screenshots/mobile.png?raw=true "Mobile Responsive")
 
 # Link
 
